@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Passwords</title>
+	<script type="text/javascript">
+		function checkPassword() {
+			var password = document.getElementById("passwordBox");
+			var passwordText = password.value;
+			if(passwordText == "qqq") {
+				return true;
+			}
+			else {
+			alert("Nope");
+			return false;
+		}
+	}
+	</script>
+</head>
+<body>
+	<p style="font-size: 30p;">Password</p>
+	<p>Password:<input id="passwordBox" type="password"/></p>
+	<a href="file:///C:/Rohan/tutorialWebsites/firstWebsite/Tutorial.html" onclick="return checkPassword();">Click to submit password</a>
+</body>
+</html>
